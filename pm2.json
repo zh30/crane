@@ -1,0 +1,32 @@
+{
+  "name": "crane",
+  "script": "server.js",
+  "kill_timeout": 25000,
+  "env": {
+    "NODE_SCENE": "develop",
+    "NODE_ENV": "development",
+    "API_CLIENT_URL": "http://localhost:3000/",
+    "API_SERVER_URL": ""
+  },
+  "env_test": {
+    "NODE_SCENE": "test",
+    "NODE_ENV": "test",
+    "DOMAIN": ".photocome.com",
+    "API_CLIENT_URL": "",
+    "API_SERVER_URL": ""
+  },
+  "env_preview": {
+    "NODE_SCENE": "preview",
+    "NODE_ENV": "production",
+    "DOMAIN": ".photocome.com",
+    "API_CLIENT_URL": "",
+    "API_SERVER_URL": ""
+  },
+  "env_online": {
+    "NODE_SCENE": "online",
+    "NODE_ENV": "production",
+    "DOMAIN": ".photocome.com",
+    "API_CLIENT_URL": "",
+    "API_SERVER_URL": ""
+  }
+}
